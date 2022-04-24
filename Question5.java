@@ -27,6 +27,16 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Enter a number : ");
+    int x = in.nextInt();
+    int [] a = new int[x];
+
+    for(int i = 1; i < x; i++)
+    {
+      System.out.print("Enter your numbers : ");
+      a[i] = in.nextInt();
+    }
     
+    in.close();
   }
 }
